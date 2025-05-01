@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(100deg, #156277, #794b83);
+
+}
+/* .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.weatherapp{
+    max-width: 350px;
+    margin: auto;
+    background-color: blue;
+    height: 450px;
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+.row{
+    margin: 20px 50px;  
+    background: rgb(140, 29, 29);
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+};
+
+.search-bar{
+    /* position: absolute; */
+    /* left: 12%; */
+    padding: 8px 10px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.search-btn{
+    /* position: absolute; */
+    right: 12%;
+    padding: 8px 10px;
+    border-radius:20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+
+};
+
+
+
+
+
+
+
+
+
+
