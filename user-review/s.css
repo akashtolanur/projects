@@ -1,0 +1,81 @@
+body{
+    background-color: #bccfc9;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 500px;
+    margin: auto;
+    /* background-color: rgb(119, 119, 137); */
+}
+div p{
+    text-align: center;
+    padding: 0 10px;
+}
+div>img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: antiquewhite;
+    /* position: relative; */
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.circle{
+    /* background-color: rgb(182, 125, 39); */
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: solid black 2px;
+    /* object-fit: cover; */
+   
+}
+h2{
+    /* text-align: center; */
+    margin: 20px 159px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.underline{
+    margin: -25px 210px;
+    font-size: large;
+    color: rgb(135, 135, 162);
+    /* font-weight: bold; */
+}
+button{
+    margin: 5px 0;
+    background: rgb(225, 230, 232);
+    border-radius: 20px;
+    padding: 7px 15px;
+    border: solid 2px rgb(152, 162, 167);
+    cursor: pointer;
+}
+#name{
+    font-family: "calibri";
+    font-weight: bold;
+    font-size: larger;
+}
+
+@media screen and (max-width:500px){
+    h2{
+        font-size: 20px;
+        margin: 20px 0;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .underline{
+        text-align: center;
+        font-size: 20px;
+        margin: -25px 10px;
+    } 
+}
